@@ -3,26 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Lobby</title>
+    <title>Real-time Chat</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<h1>Welcome to the Game Lobby! Five new games will be added every day!</h1>
-
-<button onclick="window.location.href='https://m.gamesflow.com/?play=10018114'">Retro Bowl</button>
-
-<button onclick="window.location.href=' https://www.coolmathgames.com/sites/default/files/public_games/49389/'">OvO</button>
-
-<button onclick="window.location.href='https://storage.y8.com/y8-studio/unity/joll/slope/?key=9757549&value=80527'">Slope</button>
-
-<button onclick="window.location.href='https://adarkroom.doublespeakgames.com/'">A Dark Room</button>
-
-<button onclick="window.location.href='  <button onclick="window.location.href='https://www.gameflare.com/embed/jacksmith/'">Jacksmith</button>
-
-<button onclick="window.location.href='https://www.1v1.lol/'">1v1.lol</button>    
-
-<!-- Add more buttons for additional games -->
-<!-- Example: <button onclick="window.location.href='URL_OF_YOUR_GAME'">Play Game 2</button> -->
-
+    <div class="container">
+        <div class="chat-window">
+            <div id="chat-area"></div>
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
