@@ -1,2 +1,1 @@
-# Game-Lobby
-Game Lobby made by Zenogen
+A specific code will activate a chat, only few know it.
